@@ -1,0 +1,30 @@
+package com.company;
+
+import java.util.Scanner;
+
+
+public class CGPAcalculater {
+    public static void main(String[] args) {
+        System.out.println("Calculater to calculate the CGPA of five subjects");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter marks in first subject:- ");
+        int a = input.nextInt();
+        System.out.println("Enter marks in second subject:- ");
+        int b = input.nextInt();
+        System.out.println("Enter marks in third subject:- ");
+        int c = input.nextInt();
+        System.out.println("Enter marks in fourth subject:- ");
+        int d = input.nextInt();
+        System.out.println("Enter marks in fifth subject:- ");
+        int e = input.nextInt();
+        float z = a+b+c+d+e;
+        float w = z/5;
+        System.out.print("The CGPA of five subject of a student is:- ");
+        System.out.println(w);
+        System.out.print("The percentage of the student is- ");
+        double s = w*9.5;
+        System.out.println(s);
+
+
+    }
+}
