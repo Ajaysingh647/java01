@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+
+public class EncryptDecrypt {
+    public static void main(String[] args) {
+        System.out.println("This program is used to shows the functionality of Encrypt and decrypt");
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter your obtained grade:- ");
+        int a = input.nextInt();
+        System.out.print("Your grade after encrypt :-");
+        System.out.println(a+8);
+        int b = input.nextInt();
+        System.out.print("Your program after decrypt :- ");
+        System.out.println(b-8);
+    }
+}
