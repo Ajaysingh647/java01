@@ -1,0 +1,27 @@
+import java.lang.String;
+import java.util.Locale;
+
+public class string {
+    public static void main(String[] args) {
+        System.out.println("string method");
+        //first way to insert a string in the java
+        String s1="A new string in the java";
+        System.out.println(s1);
+        // second way to insert a string in the java
+        String s2=new String("I like it's features");
+        System.out.println(s2);
+        //third way to insert a string in the java
+        char arr[]={'C','R','E','A','T','E','D'  ,'B','Y','V','I','P','L','A','V'};
+        String s3=new String(arr);
+        System.out.println(s3);
+        //methods of the string
+        String s4=s1.concat(s2);
+        System.out.println(s4);
+        System.out.println("length of s4= "+ s4.length());
+        System.out.println(s4.charAt(0));
+        System.out.println(s3.toLowerCase(Locale.ROOT));
+        System.out.println(s1.compareTo(s2));
+        System.out.println(s2.indexOf(s4));
+
+    }
+}
