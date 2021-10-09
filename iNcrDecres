@@ -1,0 +1,17 @@
+package com.company;
+import java.util.Scanner;
+import java.lang.*;
+
+public class iNcrDecres {
+    public static void main(String[] args) {
+        System.out.println("This program to create an increment or decrement ");
+        Scanner input = new Scanner(System.in);
+        System.out.print("please enter int that you want to increse:- ");
+        int a = input.nextInt();
+        System.out.println(++a);
+        System.out.print(" please enter int that you want to decrese:- ");
+        int b = input.nextInt();
+        System.out.println(--b);
+
+    }
+}
