@@ -1,0 +1,23 @@
+package com.Test;
+
+class Test<T>{
+
+    T num;//num instance data type
+    public void getter(T value){
+        num=value;//value local data type
+    }
+    public void setter(){
+        System.out.println(num);
+    }
+}
+
+public class Gneric_class {
+    public static void main(String[] args) {
+        Test <Integer> t=new Test<Integer>();
+        t.getter(57);
+        t.setter();
+        Test <Character> t1=new Test<Character>();
+        t1.getter('V');
+        t1.setter();
+    }
+}
