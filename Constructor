@@ -1,0 +1,24 @@
+package com.Test;
+
+class Abc{
+    public <T> void sakshi(T arr[])
+    {
+        for(T ele:arr){
+            System.out.println(ele);
+        }
+        System.out.println("");
+    }
+}
+
+public class constructor {
+    public static void main(String[] args) {
+        Integer num[]=new Integer[]{1,23,3};
+        String str[]=new String[]{"sakshi","jain"};
+        Abc a=new Abc();
+        a.sakshi(num);
+        a.sakshi(str);
+        Character c[]=new Character[]{'s','J'};
+        a.sakshi(c);
+    }
+
+}
